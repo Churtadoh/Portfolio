@@ -6,9 +6,10 @@ import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
+import Footer from "./Footer/Footer"
 
 export default function BaseLayout() {
-   let [darkMode, setDarkMode] = useState(false);
+   let [darkMode, setDarkMode] = useState(true);
 
    function handleClick() {
       setDarkMode(!darkMode);
@@ -27,6 +28,9 @@ export default function BaseLayout() {
                   <Route exact path={'/portfolio/about'} element={<About/>}/>
                   <Route exact path={'/portfolio/proyects'} element={<Portfolio/>}/>
                </Routes>
+            </Grid>
+            <Grid item>
+               <Footer darkMode={darkMode} handleClick={handleClick}/>
             </Grid>
          </Grid>
       </Box>
