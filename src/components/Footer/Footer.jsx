@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container, Grid, Box} from '@mui/material' 
+import Button from '@mui/material/Button';
 import {Link} from 'react-router-dom'
 import Contact from './Contact';
 
@@ -15,7 +16,11 @@ export default function Footer() {
                 justifyContent={'space-around'}>
                     <Grid item xs={12} sm={4}>
                         <Box borderBottom={2} width={{xs:400, sm:250}} py={{xs: 1, sm: 1}} >
-                            <Contact/>
+                        <Link to="CV Camilo Hurtado - Full Stack.pdf" target="_blank" download>
+                            <Button variant="contained">
+                             MY RESUME
+                            </Button>
+                        </Link>  
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={4}>            
