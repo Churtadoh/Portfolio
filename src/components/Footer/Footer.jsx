@@ -9,13 +9,13 @@ export default function Footer() {
     
     return ( 
     <footer>
-        <Box px={{xs: 3, sm:10}} py={{xs: 2, sm: 2}} bgcolor="text.secondary" color='white'>
+        <Box px={{xs: 3, sm:10}} py={{xs: 2, md: 2}} bgcolor="text.secondary" color='white'>
             <Container maxWidth = 'lg'>
                 <Grid container spacing={10} 
                 display={'flex'} flexDirection={{ md: 'row'}} alignItems={'center'}
                 justifyContent={'space-around'}>
                     <Grid item xs={12} sm={4}>
-                        <Box borderBottom={2} width={{xs:400, sm:250}} py={{xs: 1, sm: 1}} >
+                        <Box borderBottom={2} width={{xs:400, md:250}} py={{xs: 1, sm: 1}} >
                         <Link to="CV Camilo Hurtado - Full Stack.pdf" target="_blank" download>
                             <Button sx ={{width:150}} variant="contained">
                              MY RESUME
@@ -24,12 +24,12 @@ export default function Footer() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={4}>            
-                        <Box borderBottom={2} width={{xs:400, sm:250}} py={{xs: 1, sm: 1}} >
+                        <Box borderBottom={2} width={{xs:400, md:250}} py={{xs: 1, sm: 1}} >
                             <Contact sx ={{width:150}}/>
                         </Box>
                     </Grid>   
                 </Grid>
-                <Box textAlign= "center" pt={{xs: 2, sm: 2}} pb={{xs: 5, sm: 0}}>
+                <Box textAlign= "center" pt={{xs: 2, md: 2}} pb={{xs: 5, sm: 0}}>
                     CAMILO HURTADO&trade; {new Date().getFullYear()}
                 </Box>
             </Container>
