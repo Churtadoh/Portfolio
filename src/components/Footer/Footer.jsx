@@ -17,7 +17,7 @@ export default function Footer() {
                     <Grid item xs={12} sm={4}>
                         <Box borderBottom={2} width={{xs:400, sm:250}} py={{xs: 1, sm: 1}} >
                         <Link to="CV Camilo Hurtado - Full Stack.pdf" target="_blank" download>
-                            <Button variant="contained">
+                            <Button sx ={{width:150}} variant="contained">
                              MY RESUME
                             </Button>
                         </Link>  
@@ -25,7 +25,7 @@ export default function Footer() {
                     </Grid>
                     <Grid item xs={12} sm={4}>            
                         <Box borderBottom={2} width={{xs:400, sm:250}} py={{xs: 1, sm: 1}} >
-                            <Contact/>
+                            <Contact sx ={{width:150}}/>
                         </Box>
                     </Grid>   
                 </Grid>

@@ -6,15 +6,15 @@ import {info} from "../../info/Info";
 
 
 export default function About() {
-    const firstName = info.firstName.toLowerCase()
+    const firstName = info.firstName
 
     function aboutMeText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
+            <p><span style={{color: info.baseColor}}>{firstName} {info.lastName} </span> -
                 about{firstName} </p>
             <p><span style={{color: info.baseColor}}>about{firstName} <span
                 className={Style.green}>(main)</span> $ </span>
-                {info.bio}
+                <div>{info.bio.map(el => {return <div><div>{el}</div><br/></div>})}</div>
             </p>
         </>;
     }

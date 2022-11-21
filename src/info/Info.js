@@ -1,9 +1,6 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -68,63 +65,45 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: ["Greetings to all", "My name's Camilo Hurtado. I am a Full Stack Developer with an academic background in Engineering.", "Throughout my university and my years working as a mechanical engineering I felt a strong attraction towards programming, the projects that I enjoyed the most were those that included any programming related tasks." ,"For this reason, after some years working as an engineer I decided to change my career path and focus on what I feel is my true passion, programming and the world of IT. Thanks to Henry I now have all the necessary tools to be able to function in the world of programming, such as Node.js, React, Redux, SQL among other technologies.","I strongly believe that my training in engineering gave me the tools to become an integrated human being, I am very professional , love working with people and can connect easily with others, all this along with the fact that I am a natural problem solver with a calm and collected state of mind."],
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'redux' ,'git', 'github', 'node js', 'express', 'sequelize'],
+            exposedTo: ['typescript', 'firebase', '']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'basketball',
+            emoji: '⛹️‍♀️'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'science',
+            emoji: '🧪'
         },
         {
             label: 'movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'music',
+            emoji: '🎶'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Juira Market Place",
+            live: "https://juira-market-place.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/Churtadoh/PF-Henry-PT07G06-BACK", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Pokemon APP",
+            live: "none",
+            source: "https://github.com/Churtadoh/PI-Pokemon-main",
             image: mock2
-        },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
         }
     ]
 }
