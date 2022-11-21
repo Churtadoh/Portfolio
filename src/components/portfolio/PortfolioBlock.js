@@ -11,7 +11,7 @@ function PortfolioBlock(props) {
          <Box className={'portfolio'} display={'flex'} flexDirection={'row'} gap={'0.5rem'}
               alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
             {(live !== 'none') &&
-            <a href={source} target={"_blank"} rel="noopener noreferrer" style={{height: 80}}>
+            <a href={live} target={"_blank"} rel="noopener noreferrer" style={{height: 80}}>
             <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
                <IconLink link={live} title={'Live Demo'} icon={'fa fa-safari'} sx ={{width:150}}/>
             </Box>
