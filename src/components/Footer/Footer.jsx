@@ -15,7 +15,7 @@ export default function Footer() {
                 display={'flex'} flexDirection={{ md: 'row'}} alignItems={'center'}
                 justifyContent={'space-around'}>
                     <Grid item xs={12} sm={4}>
-                        <Box borderBottom={2} width={{xs:400, md:250}} py={{xs: 1, sm: 1}} >
+                        <Box borderBottom={2} width={{xs:'80%', md:250}} py={{xs: 1, sm: 1}} >
                         <Link to="CV Camilo Hurtado - Full Stack.pdf" target="_blank" download>
                             <Button sx ={{width:150}} variant="contained">
                              MY RESUME
@@ -24,7 +24,7 @@ export default function Footer() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={4}>            
-                        <Box borderBottom={2} width={{xs:400, md:250}} py={{xs: 1, sm: 1}} >
+                        <Box borderBottom={2} width={{xs:'80%', md:250}} py={{xs: 1, sm: 1}} >
                             <Contact sx ={{width:150}}/>
                         </Box>
                     </Grid>   
