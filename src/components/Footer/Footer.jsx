@@ -16,7 +16,7 @@ export default function Footer() {
                 justifyContent={'space-around'}>
                     <Grid item xs={12} sm={4}>
                         <Box borderBottom={2} width={{xs:'80%', md:250}} py={{xs: 1, sm: 1}} >
-                        <Link to="/files/CV Camilo Hurtado-Full Stack.pdf">
+                        <Link to="/portfolio/files/CV Camilo Hurtado-Full Stack.pdf">
                             <Button sx ={{width:150}} variant="contained">
                               MY RESUME
                             </Button>
