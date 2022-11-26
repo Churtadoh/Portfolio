@@ -9,7 +9,7 @@ export default function Footer() {
     
     return ( 
     <footer>
-        <Box px={{xs: 3, sm:10}} py={{xs: 2, md: 2}} bgcolor="text.secondary" color='white'>
+        <Box px={{xs: 3, sm:10}} py={{xs: 10, md: 2}} bgcolor="text.secondary" color='white'>
             <Container maxWidth = 'lg'>
                 <Grid container spacing={10} 
                 display={'flex'} flexDirection={{ md: 'row'}} alignItems={'center'}
