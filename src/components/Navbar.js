@@ -8,8 +8,8 @@ import {info} from "../info/Info";
 const links = [
     {
         name: 'Home',
-        to: '/portfolio',
-        active: 'portfolio'
+        to: '/portfolio/',
+        active: 'portfolio/'
     },
     {
         name: 'About Me',
@@ -19,8 +19,8 @@ const links = [
     {
         name: info.initials,
         type: 'initials',
-        to: '/portfolio',
-        active: 'portfolio'
+        to: '/portfolio/',
+        active: 'portfolio/'
     },
     {
         name: 'Proyects',
